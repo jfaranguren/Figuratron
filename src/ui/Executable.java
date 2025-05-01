@@ -27,8 +27,8 @@ public class Executable {
         do {
             System.out.println("\nMENU PRINCIPAL\n");
             System.out.println("1. Agregar una figura geometrica");
-            System.out.println("2. Consultar la informacion del triangulo con mayor altura");
-            System.out.println("3. Consultar el promedio del perimetro de todas las figuras almacenadas");
+            System.out.println("2. Consultar la informacion del cuadrado con menor lado");
+            System.out.println("3. Consultar el promedio del área de todas las figuras almacenadas");
             option = input.nextInt();
 
             switch (option) {
@@ -36,10 +36,10 @@ public class Executable {
                     agregarFigura();
                     break;
                 case 2:
-                    mayorTriangulo();
+                    menorCuadrado();
                     break;
                 case 3:
-                    promedioPerimetro();
+                    promedioArea();
                     break;
                 case 0:
                     System.out.println("Muchas gracias por usar nuestros servicios. Adios :D");
@@ -57,11 +57,11 @@ public class Executable {
 
     }
 
-    public void mayorTriangulo() {
+    public void menorCuadrado() {
 
     }
 
-    public void promedioPerimetro() {
+    public void promedioArea() {
 
     }
 
